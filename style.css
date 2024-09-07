@@ -1,0 +1,5 @@
+header{
+    background-color: rgb(255, 198, 3);
+    display: flex;
+    flex-direction: row;
+}
