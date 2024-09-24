@@ -1,0 +1,263 @@
+@import url('https://fonts.googleap;is.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face {
+    font-family: Maghelia;
+    src: url("/tipografias/Maghelia-Regular.otf");
+}
+
+body {
+    background-color: #dda15e;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+header {
+    height: 700px;
+    background-image: url("/imagenes/nos-casamos.jpg");
+    background-repeat: no-repeat;
+    background-size: 1440px 900px;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    text-shadow: 0 1px 13px rgba(0, 0, 0, 0.573), 0 2px 5px rgba(0, 0, 0, 0.366);
+}
+
+#fecha,
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-family: Maghelia, serif;
+    font-size: 60pt;
+}
+
+h3 {
+    font-family: Maghelia, serif;
+    font-size: 30pt;
+    margin: 0 0 25px 0;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: Maghelia, serif;
+    font-size: 25pt;
+    margin: 20px 0;
+    text-shadow: 0 1px 13px rgba(0, 0, 0, 0.573), 0 2px 5px rgba(0, 0, 0, 0.366), 0 1px 2px rgba(0, 0, 0, 0.768);
+}
+
+h5 {
+    color: white;
+    font-size: 15pt;
+    text-shadow: 0 1px 13px rgba(0, 0, 0, 0.573), 0 2px 5px rgba(0, 0, 0, 0.366), 0 1px 2px rgba(0, 0, 0, 0.768);
+    font-weight: 600;
+}
+
+#y {
+    font-size: 40pt;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+#novios {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0 0 -45px 0;
+}
+
+nav ul a {
+    font-weight: 900;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px 10px 25px;
+}
+
+.alinear {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#codigo-vestimenta {
+    background-image: url(/imagenes/arena.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    background-position: 50%;
+    color: #fefae0;
+}
+
+.parrafos-generales {
+    width: 650px;
+    margin: 25px 0 50px;
+}
+
+.cajas {
+    background-color: #606c38;
+    padding: -10px;
+    border-radius: 25px;
+    margin: 0 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.200);
+}
+
+.cajas-sin-borde img {
+    width: 80%;
+    border-radius: 15% 0;
+}
+
+.cajas img,
+.cajas iframe {
+    width: 80%;
+    border-radius: 0 15%;
+    margin: 0 0 5%;
+
+}
+
+.cajas p {
+    width: 80%;
+    text-align: start;
+    margin: 20px 10%;
+}
+
+#lugar-hora {
+    color: #ffffff;
+}
+
+#codigo-vestimenta {
+    padding: 20px 0;
+}
+
+#itinerario {
+    background-color: #606c38;
+    padding-top: 20px;
+}
+
+.cajas-itinerarios {
+    margin: 0 0 20px;
+    align-content: center;
+}
+
+.cajas-itinerarios img {
+    width: 50%;
+}
+
+#mesa-regalos a,
+#ver,
+.boton {
+    color: #dda15e;
+    background-color: #fefae0;
+    border: solid 1px #dda15e;
+    border-radius: 10px;
+    margin: 25px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.200);
+}
+
+#liverpool {
+    padding: 15px 51px;
+}
+
+#sears {
+    padding: 15px 65px;
+}
+
+#ver,
+.boton {
+    padding: 15px 10px;
+}
+
+#condiciones {
+    display: none;
+    background-color: #fefae0;
+    color: #606c38;
+    border-radius: 0 0 25px 25px;
+}
+
+#mesa-regalos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fefae0;
+    padding: 20px 0;
+}
+
+#confirmacion {
+    color: #606c38;
+    background-color: #fefae0;
+    padding: 20px 0;
+}
+
+footer{
+padding: 20px 0;
+background-image: url(/imagenes/beach-composition-with-blank-space-text.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    background-position: 50%;
+    color: #fefae0;
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 900px;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 10pt;
+    }
+
+    #fecha {
+        font-size: 25pt;
+    }
+
+    #novios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 -15px 0;
+    }
+
+    #y {
+        margin: -15px 0;
+    }
+
+    .parrafos-generales {
+        width: auto;
+        margin: 50px;
+    }
+
+    #mesa-regalos a,
+    #ver,
+    #ocultar {
+        display: block;
+    }
+
+    .cajas {
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 25pt;
+    }
+
+    #fecha {
+        font-size: 40pt;
+    }
+}
